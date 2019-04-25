@@ -10,7 +10,7 @@ while(i<10):
     #Input training files from benchmarks/FB15K/ folder.
     con.set_in_path("./OpenKE_Data/cross_valid/"+str(i)+'/')
     #True: Input test files from the same folder.
-    con.set_test_link_prediction(True)
+    # con.set_test_link_prediction(True)
     con.set_test_triple_classification(True)
 
     con.set_work_threads(4)
@@ -36,4 +36,4 @@ while(i<10):
     con.run()
     #To test models after training needs "set_test_flag(True)".
     con.test()
-
+    i+=1
