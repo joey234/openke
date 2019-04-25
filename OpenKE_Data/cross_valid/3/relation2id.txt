@@ -1,0 +1,6 @@
+5
+<http://dice-research.org/ontology/drugbank/hasCommonProducer>	0
+<http://dice-research.org/ontology/drugbank/hasIndication>	1
+<http://dice-research.org/ontology/drugbank/interactsWith>	2
+<http://dice-research.org/ontology/drugbank/hasSameState>	3
+<http://dice-research.org/ontology/drugbank/hasCommonIndication>	4
